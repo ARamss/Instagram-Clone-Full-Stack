@@ -1,11 +1,8 @@
 const express = require('express')
-
 const app = express()
 const PORT = process.env.PORT || 5000
-const mongoose = require('mongoose');
-
+const mongoose = require('mongoose')
 const {MDB} = require('./config/keys')
-
 
 //connect to mongo database
 mongoose.connect(MDB, {
@@ -40,6 +37,6 @@ if(process.env.NODE_ENV=="production"){
 }
 
 //start server
-app.listen(port, () => {
-    console.log(`Server is running on port: ${port}`);
+app.listen(PORT, () => {
+    console.log(`Server is running on port: ${PORT}`);
 });
