@@ -13,19 +13,19 @@ git clone https://github.com/ARamss/Instagram-Clone-Full-Stack.git
 
 On both client and main directory
 ```bash
-  npm install
+npm install
 ```
 
 Insert your own .env file for dev variables. 
 
 Run on main directory 
 ```bash
-  nodemon app
+nodemon app
 ```
 
 Run client 
 ```bash
-  npm start
+npm start
 ```
 
 
