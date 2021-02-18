@@ -8,10 +8,10 @@ clone the repo with
 git clone https://github.com/ARamss/Instagram-Clone-Full-Stack.git
 ```
 
+On both client and main directory
 ```bash
   npm install
 ```
-On both client and main directory
 
 Insert your own .env file for dev variables. 
 
