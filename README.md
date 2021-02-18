@@ -1,6 +1,9 @@
 # Instagram-Clone-Full-Stack
 Instagram Clone made with MERN Stack
 
+Demo:
+https://instagram-ramss.herokuapp.com/
+
 Instalation
 clone the repo with 
 
@@ -24,3 +27,5 @@ Run client
 ```bash
   npm start
 ```
+
+
